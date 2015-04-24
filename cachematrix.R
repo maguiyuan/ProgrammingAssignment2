@@ -28,5 +28,4 @@ cacheSolve <- function(x, ...) {
         inv <- solve(data)               ## if not, get the matrix and inverse it
         x$setinverse(inv)                ## update result store in the cache
         inv
-
 }
